@@ -85,6 +85,7 @@ func (i *initDictDetail) InitializeData(ctx context.Context) (context.Context, e
 		{Label: "mediumtext", Value: 7, Status: &True, Sort: 7},
 		{Label: "longblob", Value: 8, Status: &True, Sort: 8},
 		{Label: "longtext", Value: 9, Status: &True, Sort: 9},
+		{Label: "nvarchar", Value: 10, Status: &True, Sort: 10},
 	}
 
 	dicts[5].SysDictionaryDetails = []sysModel.SysDictionaryDetail{
